@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Ordering Food In a Restaurant FORM</h1>
+        <form action="form.php">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your Name">
+            <br>
+            <label for="food-item">Food Item:</label>
+            <input type="text" id="food-item" name="Food Item" placeholder="What would you like to order?">
+            <br>
+            <label for="price">Price:</label>
+            <input type="radio" value="149/-" name="price" id="price1">
+            <label for="price1">149/-</label>
+            <input type="radio" value="49/-" name="price" id="price2">
+            <label for="price2">49/-</label>
+            <input type="radio" value="99/-" name="price" id="price3">
+            <label for="price3">99/-</label>
+            <h3>Additional Options : </h3>
+            <label for="coffee">Coffee:</label>
+            <input type="checkbox" value ="Coffee" name="coffee" id="coffee">
+            <label for="fries">Fries:</label>
+            <input type="checkbox" value="Fries" name="fries" id="fries">
+            <label for="drinks">Drinks:</label>
+            <input type="checkbox" value="Drinks" name="drinks" id="drinks">
+            <br>
+            <label for="review"></label>
+            <textarea name="review" id="review" cols="20" rows="5" placeholder="Write Your Reviews Here:)"></textarea>
+            <br>
+            <label for="payment">Payment options:</label>
+            <select name="payment" id="payment">
+                <option value="no payment">Select your Payment Method:</option>
+                <option value="UPI">UPI</option>
+                <option value="Cash">Cash</option>
+                <option value="Credit card">Credit Card</option>
+            </select>
+        </form>
+    </div>
+    
+</body>
+</html>
