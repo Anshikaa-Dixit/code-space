@@ -9,12 +9,14 @@
     <div>
         <h1>Ordering Food In a Restaurant FORM</h1>
         <form action="form.php">
+            <!-- The purpose of label tag is if we click on the text also rather than clicking on the circular button or checkbox, the input will be selected. The for attribute of label tag should be same as the id of input tag.  -->
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" placeholder="Enter your Name">
             <br>
             <label for="food-item">Food Item:</label>
             <input type="text" id="food-item" name="Food Item" placeholder="What would you like to order?">
             <br>
+            <!-- In radio type input name of the multiple options should be same so that only one option can be selected at a time. -->
             <label for="price">Price:</label>
             <input type="radio" value="149/-" name="price" id="price1">
             <label for="price1">149/-</label>
@@ -34,6 +36,7 @@
             <textarea name="review" id="review" cols="20" rows="5" placeholder="Write Your Reviews Here:)"></textarea>
             <br>
             <label for="payment">Payment options:</label>
+            <!-- Select tag is used to create a drop down list. The option tag is used to create the options in the drop down list. The value attribute of option tag is used to specify the value of the option. -->
             <select name="payment" id="payment">
                 <option value="no payment">Select your Payment Method:</option>
                 <option value="UPI">UPI</option>

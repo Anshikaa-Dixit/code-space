@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Form</title>
+</head>
+<body>
+    <div>
+        <h1>TRAVEL FORM</h1>
+        <form action="form.php">
+            <h3><u>PERSONAL INFORMATION</u></h3>
+            <label for="name"> Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your Full Name" size="20">
+            <br><br>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob">
+            <br><br>
+            <label for="nationality">Nationality:</label>
+            <input type="text" id="nationality" name="nationality" placeholder="Enter your Nationality" size="20">
+            <br><br>
+            <label for="Contact">Contact Number:</label>
+            <input type="number" id="Contact" name="Contact" placeholder="Enter your Contact Number" size="20">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your Email" size="25">
+            <br><br>
+            <h3><u>TRIP DETAILS</u></h3>
+            <label for="country">Country:</label>
+            <input type="text" id="country" name="country" placeholder="Country you would like to Travel" size="25">
+            <br><br>
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" placeholder="City you would like to Travel" size="25">
+            <br><br>
+            <label for="Dep-date">Departure Date:</label>
+            <input type="date" id="Dep-date" name="Dep-date">
+            <br><br>
+            <label for="Ret-date">Return Date:</label>
+            <input type="date" id="Ret-date" name="Ret-date">
+            <br><br>
+            <label for="purpose">Purpose of Travel:</label>
+            <select name="purpose" id="purpose">
+                <option value="no purpose">Select the purpose of your travel</option>
+                <option value="Tourism">Tourism</option>
+                <option value="Business">Business</option>
+                <option value="Education">Education</option>
+                <option value="Medical">Medical</option>
+            </select>
+            <br><br>
+            <h3><u>BUDGET AND PAYMENT</u></h3>
+            <label for="budget"> Estimated Budget:</label>
+            <input type="number" id="budget" name="budget" placeholder="Enter your Budget">
+            <br><br>
+            <label for="payment">Payment Method:</label>
+            <select name="payment" id="payment">
+                <option value="no">Select your Payment Method</option>
+                <option value="UPI">UPI</option>
+                <option value="Cheque">Cheque</option>
+                <option value="Credit card">Credit Card</option>
+            </select>
+            <h3><u>TRIP PREFERENCES</u></h3>
+            <label for="guide">Want a Tour Guide?</label>
+            <input type="radio" value="YES" name="guide" id="guide1">
+            <label for="guide1">YES</label>
+            <input type="radio" value="NO" name="guide" id="guide2">
+            <label for="guide2">NO</label>
+            <br><br>
+            <label for="food">Food Preferences:</label>
+            <input type="radio" value="Veg" name="food" id="food1">
+            <label for="food1">Veg</label>
+            <input type="radio" value="Non Veg" name="food" id="food2">
+            <label for="food2">Non Veg</label>
+            <input type="radio" value="Vegan" name="food" id="food3">
+            <label for="food3">Vegan</label>
+            <br><br>
+            <h3><u>INTERESTS</u></h3>
+            <label for="interest">Places to Visit:</label>
+            <input type="checkbox" value="Beaches" name="beach" id="beach">
+            <label for="beach">Beaches</label>
+            <input type="checkbox"value="Mountains" name="mountain" id="mt">
+            <label for="mt">Mountains</label>
+            <input type="checkbox" value="Historical Sites" name="historical" id="hist">
+            <label for="hist">Historical sites</label>
+            <input type="checkbox" value="Adventure Sports" name="adventure" id="adv">
+            <label for="adv">Adventure Sports</label>
+            <input type="checkbox" value="Wildlife" name="wildlife" id="wild">
+            <label for="wild">Wildlife</label>
+            <input type="checkbox" value="Nightlife" name="nightlife" id="night">
+            <label for="night">Nightlife</label>
+            <br><br>
+        </form>
+    </div>
+    
+</body>
+</html>
