@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="naruto-favicon.png">
+    <title>Foreign Language Form</title>
+</head>
+<body>
+    <h1>Foreign Language Registration Form</h1>
+    <div>
+        <form action="form.php">
+            <label for="full-name">Full Name: </label>
+            <input type="text" name="Full name" id="full-name" placeholder="Enter your Full Name">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your Email">
+            <br>
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age" placeholder="Enter your age">
+            <br>
+            <label for="native">Native Language</label>
+            <input type="text" name="native" id="native" placeholder="What is your Native Language?" size="25">
+            <br>
+            <label for="ph">Contact Information :</label>
+            <input type="tel" id="ph" placeholder="Enter your contact number(10 digits)" pattern="[0-9]{10}" size="30">
+            <br>
+            <label for="lang">Language You Want to Learn :</label>
+            <select name="lang" id="lang">
+                <option value="no lang">Select language you want to learn</option>
+                <option value="Japanese">Japanese</option>
+                <option value="Korean">Korean</option>
+                <option value="Chinese">Chinese</option>
+                <option value="Spanish">Spanish</option>
+                <option value="German">German</option>
+            </select>
+            <br>
+            <label for="level">Current level :</label>
+            <select name="level" id="level">
+                <option value="no level">Select your current level</option>
+                <option value="Beginner">Beginner</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Advanced">Advanced</option>
+            </select>
+            <br>
+            <label for="goal">Why do you want to learn this language? :</label>
+            <input type="checkbox" name="Education" id="edu" value="Education">
+            <label for="edu">Education</label>
+            <input type="checkbox" name="career" id="career" value="career">
+            <label for="career">Career</label>
+            <input type="checkbox" name="Travel" id="travel" value="travel">
+            <label for="travel">Travel</label>
+            <input type="checkbox" name="Culture" id="cul" value="culture">
+            <label for="cul">Culture</label>
+            <input type="checkbox" name="Hobby" id="hob" value="hobby">
+            <label for="hob">Hobby</label>
+            <br>
+            <label for="mode">Preferred Class Mode :</label>
+            <input type="radio" id="on" value="Online" name="mode">
+            <label for="on">Online</label>
+            <input type="radio" id="off" value="Offline" name="mode">
+            <label for="off">Offline</label>
+            <br>
+            <label for="file">Upload Profile Photo: </label>
+            <input type="file" id="file">
+            <br>
+            <input type="reset">
+            <br>
+            <input type="submit">
+        </form>
+    </div>
+    
+</body>
+</html>
