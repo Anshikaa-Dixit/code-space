@@ -25,7 +25,7 @@ print(f"I am {age} years old and want to work in japan at the age of {at_age}.")
 price= 99.99
 cgpa= 8.7
 Population= 2.3
-print(f"Yesterday i bought a T-Shirt of price ${price}. I got {cgpa} cgpa in my 1st year. i live in a country which has {Population} population.")
+print(f"Yesterday i bought a T-Shirt of price ${price}. I got {cgpa} cgpa in my 1st year. i live in a country which has {Population} million population.")
 
 # BOOLEAN (TRUE/FALSE)
 
